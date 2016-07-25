@@ -1,0 +1,29 @@
+.footer-parent {
+  width: 75%;
+  height: 350px;
+  outline: 1px solid black;
+
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+
+-webkit-flex-direction: row;
+-moz-flex-direction: row;
+-ms-flex-direction: row;
+-o-flex-direction: row;
+flex-direction: row;
+
+justify-content: space-around;
+-ms-align-items: baseline;
+align-items: baseline;
+
+
+}
+
+.footer-child {
+  width: 50px;
+  height:50px;
+  outline:1px solid orange
+}
